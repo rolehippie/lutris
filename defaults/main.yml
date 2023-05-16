@@ -2,7 +2,7 @@
 ---
 # @var lutris_version:description: Version for the package
 # renovate: datasource=github-releases depName=lutris/lutris
-lutris_version: 0.5.12
+lutris_version: 0.5.13
 
 # @var lutris_package:description: Download URL for the package to install
 lutris_package: "https://github.com/lutris/lutris/releases/download/v{{ lutris_version }}/lutris_{{ lutris_version }}_all.deb"
