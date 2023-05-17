@@ -51,7 +51,7 @@ Version for the package
 #### Default value
 
 ```YAML
-lutris_version: 0.5.12
+lutris_version: 0.5.13
 ```
 
 ## Discovered Tags
