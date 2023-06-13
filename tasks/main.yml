@@ -1,5 +1,13 @@
 # Standards: 1.2
 ---
+- name: Install required packages
+  loop: "{{ lutris_dependencies }}"
+  package:
+    name: "{{ item }}"
+    state: present
+  tags:
+    - lutris
+
 - name: Install application deb
   apt:
     deb: "{{ lutris_package }}"

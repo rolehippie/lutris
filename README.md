@@ -17,6 +17,7 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 - [Requirements](#requirements)
 - [Default Variables](#default-variables)
+  - [lutris_dependencies](#lutris_dependencies)
   - [lutris_package](#lutris_package)
   - [lutris_version](#lutris_version)
 - [Discovered Tags](#discovered-tags)
@@ -32,6 +33,22 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 
 ## Default Variables
+
+### lutris_dependencies
+
+List of packages required by lutris
+
+#### Default value
+
+```YAML
+lutris_dependencies:
+  - wine64
+  - wine32
+  - libasound2-plugins:i386
+  - libsdl2-2.0-0:i386
+  - libdbus-1-3:i386
+  - libsqlite3-0:i386
+```
 
 ### lutris_package
 
